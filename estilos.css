@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 /* Contenedores generales ---------------------------------------------------------- */
 .card {
   position: relative;
@@ -43,6 +44,16 @@ header {
 }
 
 /* Texto ------------------------------------------------------------------------------------------------------------------------*/
+h2{
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: grey;
+  font-family:letra;
+}
+
+
+
 
 /* Index */
 
@@ -53,6 +64,15 @@ header {
 
 #mare_index figure img{
   height: 80vh;
+}
+
+p{
+  font-size: 20px;
+  color: black;
+  text-align: justify;
+  margin: 0;
+  padding: 40px;
+font-family: "coolveticacondensed_regular";
 }
 
 /* Productos */
@@ -101,8 +121,8 @@ header {
 }
 
 #mare_recomendaciones figure img {
-  height: 50vh;
-  width: 50vh;
+  height: 30vh;
+  width: 30vh;
   border-radius: 50%;
   border-radius: 1px solid black;
 
@@ -156,4 +176,9 @@ footer h2 {
 
 footer img {
   height: 10vh;
+}
+
+@font-face {
+  font-family:letra;
+  src: url(bernand.ttf);
 }
