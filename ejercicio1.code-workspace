@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../Documents/2. 2do semestre ORT/DISEÑO INTERFAZ WEB/DISEÑO INTERFAZ WEB/EJERCICIOS PARCIAL/ejercicio1"
+		},
+		{
+			"path": "../../Documents/2. 2do semestre ORT/DISEÑO INTERFAZ WEB/DISEÑO INTERFAZ WEB/PARCIALES RESUELTOS/public_html2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "public_html2"
+	}
+}
