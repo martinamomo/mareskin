@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 
 /* Contenedores generales ---------------------------------------------------------- */
 .card {
@@ -35,8 +36,8 @@ header {
   outline-color: grey;
 }
 
-.menu-principal ul li {
-  /* font-size: 20px; */
+.menu-principal ul li:hover {
+  transform: translate(-4%);
 }
 
 .menu-principal img {
@@ -44,32 +45,62 @@ header {
 }
 
 /* Texto ------------------------------------------------------------------------------------------------------------------------*/
-h2{
+h2 {
   color: grey;
-  font-family:letra; 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/*  */
 
 
+p {
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  font-family: "letra";
+}
+
+a {
+  font-family: "Lucida Grande";
+}
 
 /* Index */
 
 #mare_index {}
 
 #mare_index figure {
+  padding: 1rem;
 }
 
-#mare_index figure img{
-  height: 80vh;
+@media screen and (min-width: 992px) {
+
+  #mare_index img {
+    height: 60vh;
+  }
 }
 
-p{
-  font-size: 20px;
-  color: grey;
-  text-align: center;
-  margin: 0;
-  padding: 20px;
-font-family: "letra";
+@media screen and (max-width: 992px) {
+  #mare_index img {
+    height: 40vh;
+  }
+
+}
+
+/* Equipo */
+
+@media screen and (min-width: 992px) {
+
+  #mare_equipo img {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #mare_equipo img {
+    height: 50vh;
+  }
+
 }
 
 /* Productos */
@@ -87,6 +118,10 @@ font-family: "letra";
   height: 50vh;
   width: 50vh;
   border: 1px solid #ccc;
+}
+
+#mare_productos .card {
+  padding-top: 1rem;
 }
 
 @media screen and (max-width: 992px) {
@@ -111,6 +146,7 @@ font-family: "letra";
 
 #mare_recomendaciones h1 {
   color: grey;
+  font-size: 2rem;
 }
 
 #mare_recomendaciones h2 {
@@ -149,8 +185,8 @@ font-family: "letra";
 
 }
 
-.card:hover{
-  box-shadow: 5px 10px 20px rgba(50,0,0,4);
+.card:hover {
+  box-shadow: 5px 10px 20px rgba(50, 0, 0, 4);
   transform: translate(-3%);
 }
 
@@ -168,14 +204,19 @@ footer {
 
 footer h2 {
   color: white;
-  font-size: 5vh;
+  font-size: 2rem;
+  font-family: 'Lucida Grande';
 }
 
 footer img {
   height: 10vh;
 }
 
+footer a :hover {
+  transform: translate(-4%);
+}
+
 @font-face {
-  font-family:letra;
+  font-family: letra;
   src: url(bernand.ttf);
 }
