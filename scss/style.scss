@@ -1,0 +1,11 @@
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+@import "./components/footer";
+@import "./pages/index";
+@import "./pages/contacto";
+@import "./pages/equipo";
+@import "./pages/productos";
+@import "./pages/recomendaciones"

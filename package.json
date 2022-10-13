@@ -1,0 +1,29 @@
+{
+  "name": "miproyecto",
+  "version": "1.0.0",
+  "description": "proyecto para desarrollo web",
+  "main": "bootstrap.bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinamomo/mareskin.git"
+  },
+  "author": "martina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinamomo/mareskin/issues"
+  },
+  "homepage": "https://github.com/martinamomo/mareskin#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.2.2"
+  }
+}
