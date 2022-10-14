@@ -161,13 +161,13 @@ a {
 
 @media screen and (max-width: 992px) {
     #mare_recomendaciones div {
-        background-color: gainsboro;
+        background-color: $secondary;
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
 
     #mare_recomendaciones .card {
-        background-color: gainsboro;
+        background-color: $secondary;
     }
 }
 
@@ -178,7 +178,7 @@ a {
     }
 
     #mare_recomendaciones .card:nth-child(2n) {
-        background-color: gainsboro;
+        background-color: $secondary;
     }
 
 }
@@ -218,3 +218,4 @@ footer a :hover {
     font-family: letra;
     src: url(bernand.ttf);
 }
+
